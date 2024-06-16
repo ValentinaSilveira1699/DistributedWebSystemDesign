@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Val's Haul</title>
+    <link rel="stylesheet" href="/css/page.css">   
+    <link rel="icon" type="image/png" href="/img/VS.jpg"> <!--for the small icon-->
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img class="icon logo" src="/img/VS.jpg" alt="Val's Haul Logo">
+            <h1 class="title">Val's Haul</h1>
+            <form action="/application/search" method="GET" class="search-bar">
+                <input type="text" name="query" placeholder="Search products...">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </header>
+    <main class="page grid">
+        <aside class="leftbar">
+            {{filters}}
+        </aside>
+        <section class="content">
+            <div id="results-counter">{{resultsCounter}}</div>
+            <div id="box-container">
+                {{boxes}}
+            </div>
+        </section>
+    </main>
+    <div class="rightbar"></div> <!-- Right sidebar -->
+    <footer>
+        <p>© 2024 Val's Haul. All rights reserved.</p>
+    </footer>
+</body>
+</html>

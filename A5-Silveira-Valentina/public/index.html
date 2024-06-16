@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Val's Haul</title>
+    <script src="js/application.js" defer></script>
+    <link rel="stylesheet" href="/css/stuff.css">
+    <link rel="icon" type="image/png" href="/img/VS.jpg">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="/"><img src="img/VS.jpg" alt="Val's Haul Logo" width="160" height="160"></a>
+            <h1 class="title">Val's Haul</h1>
+            <div class="search-bar">
+                <input type="text" name="query" placeholder="Search products..." id="searchValue">
+                <button type="button" id="search-button">Search</button>
+            </di>
+        </div>
+    </header>
+    <main class="page grid">
+        <aside id="leftbar">
+            <div id="filters"></div>
+        </aside>
+        <section id="content">
+            <div id="results-counter"></div>
+            <div id="box-container" class="box-container"></div> 
+        </section>
+    
+        <aside id="rightbar">
+            <div id="shopping-cart-panel">
+                <h2>Shopping Cart</h2>
+                <ul id="cart-items">
+                    <!-- Cart items will be dynamically added here -->
+                </ul>
+                <hr id="cartItemBreaker">
+                <div id="total-price">Total: $0.00</div>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p>© 2024 Val's Haul. All rights reserved.</p>
+    </footer>
+</body>
+</html>

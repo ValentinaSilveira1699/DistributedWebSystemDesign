@@ -1,0 +1,185 @@
+.page.grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    padding: 10px;
+    max-width: 100%;
+    margin: 10px auto;
+}
+
+.icon {
+    position: relative;
+    margin: 0 auto;
+    width: 100%; /* Adjust as needed */
+    max-width: 150px;
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .icon {
+        width: 50%; /* Adjust as needed for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .icon {
+        width: 80%; /* Adjust as needed for even smaller screens */
+    }
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace; 
+    margin: 0;
+    padding: 0;
+    background: #abc8e7;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(37, 105, 188);
+    text-align: center;
+    grid-column: 1 / span 3;
+    margin-top: 5px;
+}
+
+header, footer {
+    text-align: center;
+    padding: 10px 10px;
+    position: relative;
+    margin: 0;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    grid-column: 2 / span 1; /* Center the content column */
+}
+
+#box-container {
+    background-color: #abc8e7;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 20px;
+    width: 100%;
+}
+
+#box-container #box {
+    /* Add transition for smooth animation */
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+#box-container #box:hover {
+    /* Translate slightly for a 3D effect */
+    transform: translate3d(-5px, -5px, 0);
+    /* Add a shadow effect */
+    box-shadow: 0 10px 10px rgb(101, 56, 105);
+}
+
+#box {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(101, 56, 105);
+    overflow: hidden;
+    text-align: center;
+}
+
+#box img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+#box h2 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+#box h2 a:hover { /*Once it selects the title it underlines the text*/
+    text-decoration: underline;
+}
+
+.image {
+    width: 100%;
+    border-radius: 5px;
+    height: auto;
+    max-width: 100%; /* Limit the width of the image */
+    display: block;
+}
+
+.box .Description {
+    font-size: 14px;
+    padding: 30px;
+    width: 100%;
+    text-align: left; /* Align text to the left for better readability */
+    white-space: normal; /* Ensure text wraps normally */
+    background-color: white; /* Set white background for the description */
+    border-radius: 5px; /* Add border radius for the description */
+}
+
+#product-container {
+    background-color: #c2d9f1;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    width: 100%;
+}
+
+.image-container img {
+    flex: 0 0 100%;
+    max-width: 1000px; /* Set the maximum width for the images */
+    margin: 10px;
+}
+
+.image-container {
+    max-width: 100%; /* Ensure image container doesn't exceed its parent */
+}
+
+.description-container {
+    flex: 0 0 65%; /* 50% width */
+    margin-left: 20px; /* Add left margin to create space between the image and description */
+    margin-right: 10px;
+    max-width: 100%
+}
+
+.price {
+    font-weight: bold;
+}
+
+.description {
+    font-size: 13px;
+}
+
+.tags {
+    font-style: italic;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px; /* Add padding to create button-like appearance */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s; /* Add transition for smooth hover effect */
+}
+
+.navigation a:hover {
+    background-color: rgb(26, 82, 146); /* Darker color on hover */
+}

@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "title": "Graduation Cap Disney Theme",
+        "price": 9.99,
+        "shortDescription": "The Disney Graduation Cap celebrates academic achievement with a touch of magic.",
+        "longDescription": "The Disney Graduation Cap celebrates academic achievement with a touch of magic. Featuring Cinderella Castle and vibrant fireworks, this cap symbolizes learning and growth. With 'And she graduated happily ever after,' it captures the joy of graduation. Stylish and symbolic, it's a testament to perseverance, dreams fulfilled, and the start of a new chapter full of possibilities.",
+        "tags": ["Graduation", "Disney", "Cute"],
+        "image": "DisneyGraduationCap.jpg",
+        "url": "/DsineyGraduationCap"
+    },
+    {
+        "id": 2,
+        "title": "Graduation Cap Harry Potter Theme",
+        "price": 9.99,
+        "shortDescription": "Celebrate your academic milestone with a touch of magic with this enchanting Harry Potter-themed graduation cap.",
+        "longDescription": "Celebrate your academic milestone with magic through this Harry Potter-themed graduation cap. It features the quote 'Master has given Dobby a Diploma. Dobby is Free!' from the beloved series. Suitable for any Hogwarts house, it honors the house-elf Dobby and the triumph of knowledge and freedom, making it a unique and enchanting graduation accessory.",
+        "tags": ["Graduation", "Harry Potter", "Cute"],
+        "image": "DobbyGraduationCap.jpg",
+        "url": "/DobbyGraduationCap"
+    },
+    {
+        "id": 3,
+        "title": "Stitch Graduation Stuff Animal",
+        "price": 19.99,
+        "shortDescription": "Celebrate the academic milestone of your favorite Stitch fan with this adorable graduation-themed stuffed animal.",
+        "longDescription": "Celebrate academic milestones with this adorable Stitch graduation-themed stuffed animal. Dressed in a tiny cap and holding a diploma, Stitch joins your 'ohana' in honoring this special achievement. Perfect for display or hugs, this plush is a heartfelt gift that commemorates your graduate's accomplishments and reminds them of their place in the 'ohana'.",
+        "tags": ["Graduation", "Disney", "Stitch", "Cute"],
+        "image": "GraduateStitch.jpg",
+        "url": "/GraduateStitch"
+    },
+    {
+        "id": 4,
+        "title": "Grogu Graduation Stuff Animal",
+        "price": 19.99,
+        "shortDescription": "Commence your journey into the galaxy of adulthood with the adorable Grogu by your side.",
+        "longDescription": "Commence your journey into adulthood with Grogu by your side. Dressed in a tiny graduation cap and holding a diploma, this plush version of the beloved character celebrates your academic achievement in true Mandalorian style. Grogu's endearing gaze and outstretched arms remind you that the Force will always be with you as you navigate future adventures.",
+        "tags": ["Graduation", "Disney", "Star Wars", "Cute"],
+        "image": "GraduateGrogu.jpg",
+        "url": "/GraduateGrogu"
+    },
+    {
+        "id": 5,
+        "title": "Stitch Puppy",
+        "price": 25.45,
+        "shortDescription": "Transform your furry friend into the mischievous and lovable Stitch with this adorable costume.",
+        "longDescription": "Transform your furry friend into Stitch with this adorable costume, featuring his signature blue fur and large ears. Perfect for Halloween, cosplay, or everyday fun, this costume will have your pup ready for galactic adventures. With its comfortable design and attention to detail, your pet will steal the show at any event, embodying the mischievous spirit of Stitch.",
+        "tags": ["Dog", "Costume", "Disney", "Stitch", "Cute"],
+        "image": "Dog-costume-Stitch.jpg",
+        "url": "/Dog-costume-Stitch"
+    },
+    {
+        "id": 6,
+        "title": "Pixar's Sheriff Paws",
+        "price": 29.99,
+        "shortDescription": "Transform your canine companion into the iconic sheriff from Toy Story with this adorable costume.",
+        "longDescription": "Turn your canine companion into Toy Story's sheriff with this adorable Woody-inspired costume. Complete with a cowboy hat, vest, and sheriff's badge, your dog will be ready to round up fun at costume parties or Halloween events. Whether patrolling the backyard or trick-or-treating, this costume makes your pup the new sheriff in town!",
+        "tags": ["Dog", "Costume", "Disney", "Cowboy", "Cute"],
+        "image": "CowboyWoodyDog.jpg",
+        "url": "/CowboyWoodyDog"
+    },
+    {
+        "id": 7,
+        "title": "Bark Vader",
+        "price": 25.45,
+        "shortDescription": "The ultimate Sith Lord in canine form, ready to rule the galaxy!",
+        "longDescription": "Transform your loyal companion into the Sith Lord with this Darth Vader dog costume. Complete with a black cape and hood, your furry friend will command the dark side while patrolling your backyard. Whether leading Imperial forces or enjoying playtime, your dog will embody the dark side's power, striking fear into Rebel hearts with this impressive costume.",
+        "tags": ["Dog", "Costume", "Disney", "Star Wars", "Cute"],
+        "image": "DarthPuppy.jpg",
+        "url": "/DarthPuppy"
+    },
+    {
+        "id": 8,
+        "title": "Salsa Puppy",
+        "price": 30.25,
+        "shortDescription": "Turn your fluffy friend into the life of the party with this vibrant salsa-inspired costume.",
+        "longDescription": "Turn your fluffy friend into the life of the party with this vibrant salsa-inspired costume! The colorful, ruffled design is reminiscent of traditional Latin dance attire, making your pet the center of attention at events. Comfortable and eye-catching, this costume will have tails wagging and hearts melting, letting your pet dance and spice up every gathering.",
+        "tags": ["Dog", "Costume", "Party", "Cute"],
+        "image": "SalsaPuppy.jpg",
+        "url": "/SalsaPuppy"
+    }
+]

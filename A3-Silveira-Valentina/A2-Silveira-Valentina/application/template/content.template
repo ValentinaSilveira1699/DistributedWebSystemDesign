@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Page</title>
+    <link rel="stylesheet" href="/css/page.css">   
+    <link rel="icon" type="image/png" href="/img/VS.jpg"> <!--for the small icon-->
+</head>
+<body>
+    <header>
+        <img class="icon logo" src="/img/VS.jpg" alt="Val's Haul Logo">
+        <h1 class="title">Val's Haul</h1>
+    </header>
+    
+    <div class="page grid">
+        <div></div> <!-- Left sidebar -->
+        <div>
+            {{box}}
+        </div>
+        <div class="rightbar"></div> <!-- Right sidebar -->
+        <footer class="footer"></footer>
+    </div>
+</body>
+</html>
